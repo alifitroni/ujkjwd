@@ -387,6 +387,10 @@ footer {
 
 /* Media Queries - Responsive */
 
+.hidden {
+    display: none;
+}
+
 @media (max-width: 768px) {
 
     main {
@@ -427,7 +431,7 @@ footer {
         padding: 10px 20px;
     }
 
-    .nav-links.active {
+    .nav-links.hidden.active {
         display: flex;
     }
 
