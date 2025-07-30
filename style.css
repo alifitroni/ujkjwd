@@ -459,3 +459,13 @@ footer {
         transform: translateY(0);
     }
 }
+
+/* Other */
+.iframe {
+    overflow: hidden;
+}
+
+iframe {
+    width: 100vw;
+    height: 100vh;
+}
